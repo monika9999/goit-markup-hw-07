@@ -1,13 +1,17 @@
-$standard-color-black: #000;
+$primaryColor: #2196f3;
 
-$standard-color-white: #ffffff;
+$secondaryColorBlack: #212121;
 
-$text-basic: #757575;
+$secondaryColorWhite: #fff;
 
-$text-header: #212121;
+$tertiaryColorDark: #2f303a;
 
-$selection: #2196f3;
+$tertiaryColorGrey: #757575;
 
-$light-bg: #F5F4FA;
+$tertiaryColorLight: #afb1b8;
 
-$dark-bg: #2f303a;
+$borderRadiusDefault: 4px;
+
+$transitionDurationDefault: 250ms;
+
+$transitionTimingDefault: cubic-bezier(0.4, 0, 0.2, 1);

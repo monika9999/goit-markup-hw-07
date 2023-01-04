@@ -1,94 +1,102 @@
-.footer-bg {
-    background-color: $dark-bg;
-  }
-
-.logo {
-    font-family: Raleway, sans-serif;
-    font-style: bold;
-    font-size: 1.625rem;
-    letter-spacing: 0.03em;
-    color: $selection;
-    text-decoration: none;
-    justify-content: center;
-
-   &__partfooter {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 1.625rem;
-    letter-spacing: 0.03em;
-    line-height: 1.192;
-    color: $standard-color-white;
-    text-decoration: none;
-   }
-  }
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $tertiaryColorDark;
   
-  .address {
-    font-size: 0.875rem;
-    font-style: normal;
-    line-height: 1.46;
-    letter-spacing: 0.03em;
-    color: $standard-color-white;
-
-    &__list {
-        margin: 20px 0;
-        width: 250px;
+    &__container {
+      display: flex;
+      align-items: center;
     }
-
-    &__item {
-        margin: 9px 0;
+  
+    &__address-list {
+      padding-left: 0px;
+      padding-top: 20px;
     }
-
-    &__link (
-        font-weight: 500;
-        font-size: 0.875rem;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
-        text-decoration: none;
-    )
-  }
   
-
+    &__address-list-item {
+      color: $secondaryColorWhite;
+      font-size: 14px;
+      font-style: normal;
+      line-height: 1.7;
+    }
   
-
+    &__address-list-item-link {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      transition-property: color;
+      transition-duration: $transitionDurationDefault;
+      transition-timing-function: $transitionTimingDefault;
+    }
   
-
+    &__address-list-item-link:hover,
+    &__address-list-item-link:focus,
+    &__address-list-item-link:active {
+      color: $primaryColor;
+    }
   
-  /* JOIN TO US */
+    &__description {
+      color: $secondaryColorWhite;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
   
-  .footer-flex {
-  display: flex;
-  }
+    &__socials {
+      margin-left: 70px;
+    }
   
-  .footer-title {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--header-color);
-    text-transform: uppercase;
-    margin-left: 70px;
-  }
+    &__socials-list {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
   
-  .join-to-us {
-    margin-top: -70px;
-  }
+    &__socials-icon {
+      fill: $secondaryColorWhite;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      transition-property: background-color;
+      transition-duration: $transitionDurationDefault;
+      transition-timing-function: $transitionTimingDefault;
+    }
   
-  .social-footer {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    align-content: center;
-    list-style-type: none;
-    margin-left: 70px;
-  }
+    &__socials-icon:hover,
+    &__socials-icon:focus,
+    &__socials-icon:active {
+      background-color: $primaryColor;
+      cursor: pointer;
+    }
   
-  .contact-icon {
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--header-color);
-    border-radius: 50%;
-  }
+    &__newsletter {
+      margin-left: 78px;
+    }
   
-  .contact-icon:hover {
-    background-color: var(--selection-color);
+    &__newsletter-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+  
+    &__newsletter-form-input {
+      width: 358px;
+      height: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background-color: transparent;
+      color: $secondaryColorWhite;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: $borderRadiusDefault;
+      padding: 15px 16px;
+      transition-property: border;
+      transition-duration: $transitionDurationDefault;
+      transition-timing-function: $transitionTimingDefault;
+    }
+  
+    &__newsletter-form-input:hover,
+    &__newsletter-form-input:active,
+    &__newsletter-form-input:focus {
+      border: 1px solid $primaryColor;
+      outline: none;
+    }
   }
