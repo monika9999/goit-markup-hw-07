@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+        font-family: Roboto, sans-serif;
+        color: $standard-color-black;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  
