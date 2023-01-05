@@ -163,7 +163,7 @@ body {
 }
 
 /*HEADER - with photo bg*/
-.hero {
+.headerbg {
   background-color: var(--brand-color-dark);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background/background-image.jpg);
@@ -176,12 +176,12 @@ body {
   align-items: center;
 }
 
-.hero__content {
+.headerbg__content {
   text-align: center;
   width: 700px;
 }
 
-.hero__title {
+.headerbg__title {
   color: var(--brand-color-white);
   text-transform: uppercase;
   font-size: 44px;
@@ -227,14 +227,14 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button--hero {
+.button--headerbg {
   padding-left: 41px;
   padding-right: 41px;
 }
 
-.button--hero:hover,
-.button--hero:focus,
-.button--hero:active {
+.button--headerbg:hover,
+.button--headerbg:focus,
+.button--headerbg:active {
   background-color: var(--brand-color-white);
   color: var(--brand-color-blue);
 }
@@ -257,27 +257,27 @@ body {
 }
 
 /*COLUMNS "LOREM IPSUM..."*/
-.advantages {
+.article {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.advantages__list {
+.article__list {
   display: flex;
   justify-content: space-between;
 }
 
-.advantages__list-item {
+.article__list-item {
   max-width: 270px;
   display: inline-block;
   margin-right: 20px;
 }
 
-.advantages__list-item:last-child {
+.article__list-item:last-child {
   margin-right: 0;
 }
 
-.advantages__box {
+.article__box {
   background-color: #f5f4fa;
   border-radius: var(--border-radius-default);
   padding: 25px 100px;
@@ -287,13 +287,13 @@ body {
   margin-bottom: 30px;
 }
 
-.advantages__title {
+.article__title {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.advantages__text {
+.article__text {
   font-size: 14px;
   line-height: 1.7em;
   color: var(--brand-color-grey);

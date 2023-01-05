@@ -1,14 +1,15 @@
-.hero {
-    background-color: $tertiaryColorDark;
+.headerbg {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero-underlay.jpg);
+    url(../images/background/background-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-size: 1600px 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
   
     &__content {
       text-align: center;

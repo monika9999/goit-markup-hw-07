@@ -33,14 +33,14 @@
         0px 2px 2px rgba(0, 0, 0, 0.12);
     }
   
-    &--hero {
+    &--headerbg {
       padding-left: 41px;
       padding-right: 41px;
     }
   
-    &--hero:hover,
-    &--hero:focus,
-    &--hero:active {
+    &--headerbg:hover,
+    &--headerbg:focus,
+    &--headerbg:active {
       background-color: $secondaryColorWhite;
       color: $primaryColor;
     }
