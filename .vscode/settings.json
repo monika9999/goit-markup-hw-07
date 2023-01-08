@@ -12,6 +12,7 @@
         "last 2 versions"
     ],
     
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "c:\\Users\\Monika\\Desktop\\it\\projekt\\goit-markup-hw-07\\index.html"
 
 }
