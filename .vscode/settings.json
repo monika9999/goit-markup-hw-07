@@ -1,7 +1,7 @@
 {
     "liveSassCompile.settings.formats": [
         {
-            "format": "compressed",
+            "format": "expanded",
             "extensionName": ".min.css",
             "savePath": "~/../css"
         }
@@ -11,8 +11,6 @@
         ">1%",
         "last 2 versions"
     ],
-    
-    "liveServer.settings.port": 5501,
-    "livePreview.defaultPreviewPath": "c:\\Users\\Monika\\Desktop\\it\\projekt\\goit-markup-hw-07\\index.html"
+    "livePreview.defaultPreviewPath": "c:\\Users\\Monika\\Desktop\\it\\projekt\\goit-markup-hw-07\\index.html",
 
 }
