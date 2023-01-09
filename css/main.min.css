@@ -776,7 +776,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team__description-icon:hover, .team__description-icon:focus, .team__description-icon:active {
+.team__icon:hover, .team__icon:focus, .team__icon:active {
   fill: #fff;
   background-color: #2196f3;
   border-radius: 50%;

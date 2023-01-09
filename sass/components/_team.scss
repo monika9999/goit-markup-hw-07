@@ -49,9 +49,9 @@
     transition-timing-function: $transitionTimingDefault;
   }
 
-  &__description-icon:hover,
-  &__description-icon:focus,
-  &__description-icon:active {
+  &__icon:hover,
+  &__icon:focus,
+  &__icon:active {
     fill: $secondaryColorWhite;
     background-color: $primaryColor;
     border-radius: 50%;
